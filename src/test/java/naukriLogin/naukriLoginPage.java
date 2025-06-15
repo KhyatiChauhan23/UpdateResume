@@ -21,7 +21,6 @@ public class naukriLoginPage extends webDriverManager{
         try {
             driver.findElement(By.xpath("//*[text()='Got it']")).click();
         } catch (Exception e) {
-            // Ignore if not found
         }
 
         driver.findElement(By.xpath("//a[@id='login_Layer']")).click();
@@ -37,7 +36,7 @@ public class naukriLoginPage extends webDriverManager{
         driver.findElement(By.xpath("//input[contains(@placeholder,'password')]")).sendKeys(password);
 
         driver.findElement(By.cssSelector("button[type='submit']")).click();
-        System.out.println("✅ Logged In Successfully");
+        System.out.println("Logged In Successfully");
 
     }
 }
