@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Naukri Automation Suite">
+  <test name="Full Flow">
+    <classes>
+      <class name="naukriLogin.naukriLoginPage"/>
+      <class name="naukriLogin.naukriResumeUpdatePage"/>
+    </classes>
+  </test>
+</suite>

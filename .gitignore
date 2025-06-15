@@ -12,3 +12,6 @@ target/
 
 #Config
 config.properties
+
+# Ignore resume file
+src/main/java/resources/Khyati_Chauhan_Resume.pdf
