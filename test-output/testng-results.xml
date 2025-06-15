@@ -2,26 +2,26 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-06-15T20:40:53 IST" name="Naukri Automation Suite" finished-at="2025-06-15T20:41:12 IST" duration-ms="19511">
+  <suite started-at="2025-06-15T21:36:54 IST" name="Naukri Automation Suite" finished-at="2025-06-15T21:37:27 IST" duration-ms="32509">
     <groups>
     </groups>
-    <test started-at="2025-06-15T20:40:53 IST" name="Full Flow" finished-at="2025-06-15T20:41:12 IST" duration-ms="19511">
+    <test started-at="2025-06-15T21:36:54 IST" name="Full Flow" finished-at="2025-06-15T21:37:27 IST" duration-ms="32509">
       <class name="naukriLogin.naukriLoginPage">
-        <test-method signature="uploadResumeTest()[pri:0, instance:naukriLogin.naukriLoginPage@66d18979]" started-at="2025-06-15T20:40:53 IST" name="uploadResumeTest" finished-at="2025-06-15T20:41:05 IST" duration-ms="11869" status="PASS">
+        <test-method signature="uploadResumeTest()[pri:0, instance:naukriLogin.naukriLoginPage@66d18979]" started-at="2025-06-15T21:36:54 IST" name="uploadResumeTest" finished-at="2025-06-15T21:37:19 IST" duration-ms="25135" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- uploadResumeTest -->
       </class> <!-- naukriLogin.naukriLoginPage -->
       <class name="naukriLogin.naukriResumeUpdatePage">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:naukriLogin.naukriResumeUpdatePage@58ea606c]" started-at="2025-06-15T20:41:05 IST" name="setUp" finished-at="2025-06-15T20:41:05 IST" duration-ms="8" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:naukriLogin.naukriResumeUpdatePage@58ea606c]" started-at="2025-06-15T21:37:19 IST" name="setUp" finished-at="2025-06-15T21:37:19 IST" duration-ms="9" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="uploadResumeTest()[pri:0, instance:naukriLogin.naukriResumeUpdatePage@58ea606c]" started-at="2025-06-15T20:41:05 IST" name="uploadResumeTest" finished-at="2025-06-15T20:41:12 IST" duration-ms="6651" status="PASS">
+        <test-method signature="uploadResumeTest()[pri:0, instance:naukriLogin.naukriResumeUpdatePage@58ea606c]" started-at="2025-06-15T21:37:19 IST" name="uploadResumeTest" finished-at="2025-06-15T21:37:26 IST" duration-ms="6591" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- uploadResumeTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:naukriLogin.naukriResumeUpdatePage@58ea606c]" started-at="2025-06-15T20:41:12 IST" name="tearDown" finished-at="2025-06-15T20:41:12 IST" duration-ms="697" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:naukriLogin.naukriResumeUpdatePage@58ea606c]" started-at="2025-06-15T21:37:26 IST" name="tearDown" finished-at="2025-06-15T21:37:27 IST" duration-ms="651" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
