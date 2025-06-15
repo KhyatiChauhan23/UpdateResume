@@ -25,15 +25,16 @@ public class naukriResumeUpdatePage {
     
     @Test
     public void uploadResumeTest() throws URISyntaxException, InterruptedException {
-        // Navigate to profile page
+    	
+        // Profile Page --> Clicking on "View profile"
         WebElement element = wait.until(ExpectedConditions.elementToBeClickable(By.cssSelector("a[href='/mnjuser/profile']")));
         element.click();
 
-        // Click on Resume tab
+        // Clicking on Resume
         element = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//span[text()='Resume']")));
         element.click();
 
-        // Load resume file
+        // Loading Resume
         ClassLoader classLoader = naukriResumeUpdatePage.class.getClassLoader();
         URL resource = classLoader.getResource("resources/Khyati_Chauhan_Resume.pdf");
 
@@ -44,11 +45,11 @@ public class naukriResumeUpdatePage {
         File file = new File(resource.toURI());
         String absolutePath = file.getAbsolutePath();
 
-        // Upload the resume
+        // Uploading the Resume
         WebElement fileInput = wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//input[@type='file']")));
         fileInput.sendKeys(absolutePath);
 
-        // Wait briefly to observe the result
+        //Waiting for Success Message
         Thread.sleep(1000);
 
         System.out.println("Resume uploaded successfully!");
